@@ -1,0 +1,1 @@
+# NextJs-DynamicRouting
