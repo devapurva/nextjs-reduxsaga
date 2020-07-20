@@ -14,6 +14,10 @@ app.prepare().then(() => {
     return app.render(req, res, '/other', '/other-page')
   })
 
+  server.get('/index-page', (req, res) => {
+    return app.render(req, res, '/', '/index-page')
+  })
+
   server.all('*', (req, res) => {
     return handle(req, res)
   })

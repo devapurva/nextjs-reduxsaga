@@ -12,7 +12,7 @@ const Other = () => {
     dispatch(startClock())
   }, [dispatch])
 
-  return <Page title="Other Page" linkTo="/" NavigateTo="Index Page" />
+  return <Page title="Other Page" linkTo="/index-page" NavigateTo="Index Page" />
 }
 
 export const getStaticProps = wrapper.getStaticProps(async ({ store }) => {
