@@ -14,7 +14,7 @@ function* runClockSaga() {
 
 function* loadDataSaga() {
   try {
-    const res = yield fetch('https://jsonplaceholder.typicode.com/users')
+    const res = yield fetch('https://currencyapi.net/api/v1/rates?key=Pu2adq0vvTMQ4UhU3sRA8kBlluu7fok94EQU')
     console.log(res)
     const data = yield res.json()
     yield put(loadDataSuccess(data))
