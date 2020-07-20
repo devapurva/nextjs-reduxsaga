@@ -1,4 +1,4 @@
-# NextJS Starter Along with Redux Saga & Express (for routing)
+# NextJS Starter Along with Redux Saga & Express
 
 ## Built With: 
 1. ```Next JS V9.5+```
