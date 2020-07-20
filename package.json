@@ -1,15 +1,18 @@
 {
-  "name": "learn-starter",
-  "version": "0.1.0",
+  "name": "learn-starter-with-redux-saga",
+  "version": "1.0.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
     "next": "9.3.5",
     "next-redux-wrapper": "^6.0.2",
+    "node-fetch": "^2.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",

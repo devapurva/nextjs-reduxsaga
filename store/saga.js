@@ -2,6 +2,8 @@
 import { all, call, delay, put, take, takeLatest } from 'redux-saga/effects'
 import { actionTypes, failure, loadDataSuccess, tickClock } from './actions';
 
+const fetch = require("node-fetch");
+
 function* runClockSaga() {
   yield take(actionTypes.START_CLOCK)
   while (true) {
@@ -13,6 +15,7 @@ function* runClockSaga() {
 function* loadDataSaga() {
   try {
     const res = yield fetch('https://jsonplaceholder.typicode.com/users')
+    console.log(res)
     const data = yield res.json()
     yield put(loadDataSuccess(data))
   } catch (err) {
