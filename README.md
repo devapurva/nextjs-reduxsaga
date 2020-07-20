@@ -14,8 +14,7 @@ Your system must have Node v10.16.3+.
 3. Install required packages using - ``` npm i ```
 4. Run Application :
     * Local : ``` npm run dev ```
-    * Development(optimized build): ``` npm run dev ```
-    * Production: ``` npm run build & npm run start ```
+    * Production: ``` npm run build && npm run start ```
     
 #### Contribution
 I'm open to contributions & suggestions in making this a lot better ✋
