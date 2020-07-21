@@ -1,5 +1,5 @@
 # NextJS Starter Along with Redux Saga & Express
-Implemented using ```npx create-next-app```` .
+Implemented using ``` npx create-next-app ```
 
 ## Built With: 
 1. ```Next JS V9.5+```
